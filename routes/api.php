@@ -24,5 +24,5 @@ Route::controller(BookController::class)->group(function () {
 
     Route::get('books', 'index');
     Route::post('books', 'store');
-    Route::delete('books/{title}', 'destroy');
+    Route::delete('books/{book}', 'destroy');
 });
